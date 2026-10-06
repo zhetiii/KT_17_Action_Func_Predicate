@@ -15,15 +15,12 @@ namespace KT_17_Delegates
 
             ScoreProcessor processor = new ScoreProcessor();
 
-            // 1. Проверка по проверочным ключам преподавателя
             Console.WriteLine("=== 1. Проверка по контрольным ключам ===");
             processor.RunTeacherTests();
 
-            // 2. Демонстрация несовместимости типов Predicate<T> и Func<T, bool>
             Console.WriteLine("\n=== 2. Демонстрация несовместимости типов делегатов ===");
             processor.DemonstrateTypeIncompatibility();
 
-            // 3. Интерактивная часть с ручным вводом
             Console.WriteLine("\n=== 3. Интерактивный ручной ввод ===");
             RunInteractiveSession(processor);
 
