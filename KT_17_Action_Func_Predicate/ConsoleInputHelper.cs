@@ -3,9 +3,6 @@ using System.Collections.Generic;
 
 namespace KT_17_Delegates
 {
-    /// <summary>
-    /// Вспомогательный класс для безопасного ввода данных с клавиатуры с перехватом исключений.
-    /// </summary>
     public static class ConsoleInputHelper
     {
         public static List<int> ReadScores()
