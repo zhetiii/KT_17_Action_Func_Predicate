@@ -1,0 +1,13 @@
+## Временные папки сборки Visual Studio и .NET
+.vs/
+bin/
+obj/
+
+## Пользовательские параметры настройки
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Лог-файлы
+*.log
